@@ -24,4 +24,16 @@ class PlayerReader:
                 players.append(player)
 
         return players
+    
+class GiveURL:
+    def get_url(self):
+        return "https://studies.cs.helsinki.fi/nhlstats/2022-23/players.txt"
+    
+class PlayerReaderIO:
+    def __init__(self, url_giver):
+        self._url_giver = url_giver
+
+    def create(self):
+        reader = PlayerReader(self._url_giver)
+        return reader.get_players()
 
