@@ -1,12 +1,12 @@
 from statistics_service import StatisticsService
-from player_reader import GiveURL, PlayerReaderIO
+from player_reader import PlayerReader
 
 
 def main():
-    url_giver = GiveURL()
-    player_reader = PlayerReaderIO(url_giver)
-    players = player_reader.create()
-    stats = StatisticsService(players)
+    stats = StatisticsService(
+      PlayerReader("https://studies.cs.helsinki.fi/nhlstats/2023-24/players.txt")
+    )
+
     philadelphia_flyers_players = stats.team("PHI")
     top_scorers = stats.top(10)
 

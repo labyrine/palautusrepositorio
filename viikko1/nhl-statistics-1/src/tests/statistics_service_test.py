@@ -16,7 +16,7 @@ class TestStatisticsService(unittest.TestCase):
     def setUp(self):
         # annetaan StatisticsService-luokan oliolle "stub"-luokan olio
         self.stats = StatisticsService(
-            PlayerReaderStub().get_players()
+            PlayerReaderStub()
         )
      
     def test_players_search_correct(self):

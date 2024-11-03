@@ -1,6 +1,6 @@
 class StatisticsService:
     def __init__(self, players):
-        self._players = players
+        self._players = players.get_players()
 
     def search(self, name):
         for player in self._players:
