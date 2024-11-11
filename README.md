@@ -1,1 +1,1 @@
-- [Viikko 1 tehtävät 2-13](https://github.com/labyrine/ohtuvarasto)
+- [Viikko 1 tehtävät 2-13 ja viikko 2 tehtävät 3-4](https://github.com/labyrine/ohtuvarasto)
