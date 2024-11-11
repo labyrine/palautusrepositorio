@@ -12,6 +12,8 @@ def main():
         player = Player(player_dict)
         players.append(player)
 
+    players.sort(key=lambda x: x.points, reverse=True)
+
     for player in players:
         if player.nationality == "FIN":
             print(player)
