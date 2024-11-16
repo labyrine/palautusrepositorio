@@ -49,6 +49,33 @@ Register With Username That Is Already In Use
     Submit Registration
     Registration Should Fail With Message  Username is used already
 
+Login After Successful Registration
+    Set Username  hyvanimi
+    Set Password  huonosalasana123
+    Validate Password  huonosalasana123
+    Submit Registration
+    Registration Should Succeed
+
+    Log Out
+
+    Set Username  hyvanimi
+    Set Password  huonosalasana123
+    Submit Credentials
+    Main Page Should Be Open
+
+Login After Failed Registration
+    Set Username  hy
+    Set Password  huonosalasana123
+    Validate Password  huonosalasana123
+    Submit Registration
+    Registration Should Fail With Message  Username must be at least 3 letters long
+
+    Move To Login
+    Set Username  hy
+    Set Password  huonosalasana123
+    Submit Credentials
+    Login Should Fail With Message  Invalid username or password
+
 *** Keywords ***
 
 Set Username
@@ -72,6 +99,21 @@ Registration Should Succeed
 Registration Should Fail With Message
     [Arguments]  ${message}
     Page Should Contain  ${message}
+
+Login Should Fail With Message
+    [Arguments]  ${message}
+    Login Page Should Be Open
+    Page Should Contain  ${message}
+
+Submit Credentials
+    Click Button  Login
+
+Log Out
+    Click Link  Continue to main page
+    Click Button  Logout
+
+Move To Login
+    Click Link  Login
 
 *** Keywords ***
 Reset Application Create User And Go To Register Page
