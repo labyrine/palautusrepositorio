@@ -41,3 +41,6 @@ Go To Login Page
 Go TO Starting Page
     Go To  ${HOME_URL}
 
+Go To Register Page
+    Go To  ${REGISTER_URL}
+
