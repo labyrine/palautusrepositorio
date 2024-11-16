@@ -1,1 +1,3 @@
 - [Viikko 1 tehtävät 2-13 ja viikko 2 tehtävät 3-4](https://github.com/labyrine/ohtuvarasto)
+- [Viikko 3 tehtävät 2-4](https://github.com/labyrine/webcounter)
+- [Viikko 3 osa tehtävästä 4](https://github.com/labyrine/ohtu-web-login)
