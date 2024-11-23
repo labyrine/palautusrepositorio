@@ -11,3 +11,5 @@ Tämän jälkeen jokainen tiimiläinen esittelee yhden oman korttinsa kerrallaan
 Sitten he lajittelevat laput kategorioihin: iloinen, surullinen tai vihainen. Samankaltaiset kortit ryhmitellään, ja osallistujat äänestävät käsiteltävistä aiheista. 
 Lopuksi retrospektiivin johtaja johtaa keskustelua kyseisistä korteista keskittyen parannustoimiin. 
 Tämän menetelmän on tarkoitus kestää noin tunnin.
+
+Tehtävä 6 ensimmäinen muokkaus
