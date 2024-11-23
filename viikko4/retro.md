@@ -12,4 +12,4 @@ Sitten he lajittelevat laput kategorioihin: iloinen, surullinen tai vihainen. Sa
 Lopuksi retrospektiivin johtaja johtaa keskustelua kyseisistä korteista keskittyen parannustoimiin. 
 Tämän menetelmän on tarkoitus kestää noin tunnin.
 
-Tehtävä 6 toinen muokkaus
+Tehtävä 6 kolmas muokkaus
